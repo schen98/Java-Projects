@@ -289,7 +289,7 @@ public class Blackjack implements BlackjackEngine {
 	/**
 	 * 
 	 * @param cardEval integer array of cards
-	 * @param hand     array list of hand of cards
+	 * @param hand array list of hand of cards
 	 * @return integer representing card standing
 	 */
 	private int cardsEval(int[] cardEval, ArrayList<Card> hand) {
