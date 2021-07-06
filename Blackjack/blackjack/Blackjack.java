@@ -111,7 +111,7 @@ public class Blackjack implements BlackjackEngine {
 
 	/**
 	 * returns integer value that assumes values, LESS_THAN_21, HAS_21, BUST, or
-	 * BLACKJACK if dealer has a ace with 10, jack, queen, or a king
+	 * BLACKJACK if dealer has a ace with 10, jack, queen, or a king.
 	 */
 	public int getDealerCardsEvaluation() {
 		return cardsEval(getDealerCardsTotal(), dealerCards);
