@@ -26,7 +26,7 @@ public class CardImage extends JPanel {
 		
 		String cardName;
 		if (!card.isFacedUp())
-			cardName = "src/images/b2fv.gif";  // face-down
+			cardName = "src/images/b2fv.gif";   // face-down
 		else
 			cardName = getImageFileName();
 		
